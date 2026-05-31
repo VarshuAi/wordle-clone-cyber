@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Wordle — Glassmorphism Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-row">
+                <span class="logo-emoji">📝</span>
+                <div class="title-col">
+                    <h1>Cyber Wordle</h1>
+                    <p class="tagline">Five-letter word guessing game complete with interactive status panels.</p>
+                </div>
+            </div>
+            <div class="badge">games</div>
+        </header>
+
+        <main class="workspace-card">
+            
+            <div id="wordle-board" class="w-grid"></div>
+            <div style="text-align: center; margin-top: 16px;">
+                <input type="text" id="wordle-input" maxlength="5" style="width: 140px; text-align: center;">
+                <button class="btn" onclick="submitWord()">Guess</button>
+            </div>
+        
+        </main>
+        
+        <footer class="app-footer">
+            <p>Created as a premium portfolio piece by <a href="https://github.com/VARSHAN69" target="_blank">@VARSHAN69</a></p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
