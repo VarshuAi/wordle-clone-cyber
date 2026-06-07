@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  Five-letter word guessing game complete with interactive status panels.
+  name: wordle-clone-cyber version: 1.0 type: Repository author: VarshuAi description: >   Five-letter word guessing game complete with interactive status panels. primary_tech: CSS
 primary_tech: CSS
 ```
 
